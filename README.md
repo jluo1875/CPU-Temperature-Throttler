@@ -29,7 +29,7 @@ stress -c 4 -t 120s
 ```
 With c the number of threads and t time in seconds to stress test.
 
-#Dependencies
+# Dependencies
 This script needs package:
 ```
 cpufrequtils
