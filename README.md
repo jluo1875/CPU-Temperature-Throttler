@@ -22,4 +22,20 @@ Example: sudo cpu_throttle.py --crit_temp 45 --time 15 --debug
 This will keep cpu temp below 45 degrees celcius (most of the time) and let cpu cool down
 at a lower speed for 15 seconds, before checking again. Also it prints all debug messages to screen (and to logfile).
 
+**Stress test cpu with command: **
+```
+stress -c 4 -t 120s
+```
+With c the number of threads and t time in seconds to stress test.
+
+#Dependencies
+This script needs package:
+```
+cpufrequtils
+```
+Install using:
+```
+sudo apt install cpufrequtils
+```
+
 
