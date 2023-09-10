@@ -15,7 +15,7 @@ logging.basicConfig(
 
 def getArguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--time', type=int, help='Seconds to cooldown cpu before next check, default is 30 seconds.')
+    parser.add_argument('--time', type=int, help='Seconds to cooldown cpu before next check, default is 20 seconds.')
     parser.add_argument('--crit_temp', type=int, help='Temp for cpu to throttle down (temperature in celcius degrees)')
     parser.add_argument('--debug', action='store_true', help='Output more information when set to True.')
     args = parser.parse_args()
