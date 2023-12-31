@@ -1,4 +1,4 @@
-# cputempthrottle
+# CPU Throttler
 
 Script for throttling system CPU frequency when getting hot based on your desired maximum temperature (celsius).
 
